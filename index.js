@@ -5,3 +5,12 @@
  
 // GOLD : Return the sums of the elements that are multiples of three ONLY. If there are no multiples of three, 
 // return a string message for invalid arguments
+
+// function someArrays(arr){
+//     let sumArray = add(arr);
+//     return sumArray;
+// }
+add = function (arr){
+    return arr.reduce((a, b) => a + b, 0);
+}
+console.log(add([1,2,3,4,]));
